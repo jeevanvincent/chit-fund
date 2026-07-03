@@ -1,0 +1,9 @@
+# Protect the database secrets inside backend
+backend/.env
+
+# Ignore the heavy dependency folders
+backend/node_modules/
+frontend/node_modules/
+
+# Ignore the frontend build folder
+frontend/dist/
